@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/apeltic"
+            android:scaleType="centerCrop"
+            android:alpha="0.90"
+
+            android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp" android:layout_marginLeft="0dp" android:layout_alignParentLeft="true"/>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="Nama:Nasarriatun"
+                android:textSize="25dp"
+                android:textColor="#0b0b0b"
+                android:background="#2ef40713"/>
+        <TextView
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="NIM : 170202095"
+                android:textSize="25dp"
+                android:textColor="#0b0b0b"
+                android:background="#7754d718"/>
+        <TextView
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="Prodi : Teknik Informatika_C"
+                android:textSize="25dp"
+                android:textColor="#0b0b0b"
+                android:background="#771ee3ea"/>
+        <TextView
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="Alamat : Pringgabaya"
+                android:textSize="25dp"
+                android:textColor="#0b0b0b"
+                android:background="#77d718c7"/>
+        <TextView
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="Ttl : Pringgabaya, 10-10-1998"
+                android:textSize="25dp"
+                android:textColor="#0b0b0b"
+                android:background="#f4d6071c"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
